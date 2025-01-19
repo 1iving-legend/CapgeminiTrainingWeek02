@@ -13,9 +13,9 @@ public class BankAccountDetails {
 
 
 class BankAccount{
-    String accountHolder;
-    int accountNumber;
-    double balance;
+  private  String accountHolder;
+   private int accountNumber;
+  private  double balance;
 
     BankAccount(String accountHolder, int accountNumber, double balance){
         this.accountHolder = accountHolder;

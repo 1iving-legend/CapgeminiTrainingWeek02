@@ -1,4 +1,4 @@
-public class CarttItem {
+public static class CarttItem {
 
     private String itemName;
     private int price;
