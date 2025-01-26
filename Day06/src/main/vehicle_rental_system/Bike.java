@@ -14,6 +14,6 @@ public class Bike extends Vehicle implements Insurable {
     }
 
     public String getInsuranceDetails() {
-        return "main.vehicle_rental_system.Bike Insurance: 5% of rental rate.";
+        return "main.vehicle_rental_system.main.ridehailingapplication.Bike Insurance: 5% of rental rate.";
     }
 }

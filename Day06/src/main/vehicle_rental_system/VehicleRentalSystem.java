@@ -6,11 +6,11 @@ public class VehicleRentalSystem {
     public static void main(String[] args) {
         List<Vehicle> vehicles = new ArrayList<>();
         vehicles.add(new Car("C101", "Sedan", 1500));
-        vehicles.add(new Bike("B202", "Sports main.vehicle_rental_system.Bike", 500));
+        vehicles.add(new Bike("B202", "Sports main.vehicle_rental_system.main.ridehailingapplication.Bike", 500));
         vehicles.add(new Truck("T303", "Heavy main.vehicle_rental_system.Truck", 3000));
 
         for (Vehicle vehicle : vehicles) {
-            System.out.println("main.vehicle_rental_system.Vehicle Number: " + vehicle.getVehicleNumber());
+            System.out.println("main.vehicle_rental_system.main.ridehailingapplication.Vehicle Number: " + vehicle.getVehicleNumber());
             System.out.println("Type: " + vehicle.getType());
             System.out.println("Rental Cost for 5 days: " + vehicle.calculateRentalCost(5));
 

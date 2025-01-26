@@ -14,6 +14,6 @@ public class Car extends Vehicle implements Insurable {
     }
 
     public String getInsuranceDetails() {
-        return "main.vehicle_rental_system.Car Insurance: 10% of rental rate.";
+        return "main.vehicle_rental_system.main.ridehailingapplication.Car Insurance: 10% of rental rate.";
     }
 }
